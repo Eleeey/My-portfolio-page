@@ -1,27 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  /* border: 1px solid black; */
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/* .aboutMe{
+  @apply md:top-[56%] sm:top-[62.5%] lg:top-[62.5%]
+} */
+@keyframes bg {
+  0%{
+    background-image: url(/public/pexels-pixabay-270408.jpg);
   }
+  25%{
+    background-image: url(/public/5474248_2328020.jpg);
+  }
+  50%{
+    background-image: url(/public/pexels-markus-spiske-360591.jpg);
+  }
+  75%{
+    background-image: url(/public/6091745_3155950.jpg);
+  }
+  100%{
+    background-image: url(/public/pexels-danny-meneses-943096.jpg);
+  }
+  
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.projects{
+  @apply flex justify-center align-middle flex-wrap w-[100%] h-64  md:h-48  md:w-full rounded-lg;
+  background-image: url(/public/pexels-pixabay-270408.jpg);
+  animation: bg 10s ease-in-out;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
