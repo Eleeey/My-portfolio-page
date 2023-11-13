@@ -27,7 +27,7 @@ const Nav = () => {
             width={24}
           />
         </Link>
-        <Link href={"/Untitled (5).pdf"} target="blank" className="rounded-lg bg-black text-white px-5 py-1 hover:bg-white hover:border-black hover:border-2 hover:text-black">Resume</Link>
+        <Link href={"/Untitled (7).pdf"} target="blank" className="rounded-lg bg-black text-white px-5 py-1 hover:bg-white hover:border-black hover:border-2 hover:text-black">Resume</Link>
       </ul>
     </nav>
   );
