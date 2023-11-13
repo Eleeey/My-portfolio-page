@@ -18,9 +18,32 @@ export const ICONS = [
   'path_to_image_3.jpg',
   // Add more image paths as needed
 ];
-export const PROJECTS=[  
-  {name:'Car-hub', image:'/chub.png', description:'Car-hub is a car booking and renting app that utilizes the use of a NExt.js 14 and equiped with advanced search and filter capabilities',techUsed:['Tailwind.svg','TS.svg','/Nextjs.svg']},
-  {name:'Cypto', image:'/cypto.png', description:'Ctpto is a easy to handle app that bundles all the data about your favorite cryptocurrencies such as market cap and price changes over time and news that affects them',techUsed:['/React.svg','antd.svg','TS.svg','ChatGPT .svg']},
-  {name:'Hiilink', image:'/hilink.png', description:'Hiiilink is a landing page for hiking or camping guide for all your outdoor hiking and camping',techUsed:['/Tailwind.svg','/TS.svg','/React.svg', '/Nextjs.svg']},
-  
-]
+export const PROJECTS = [
+  {
+    name: "Car-hub",
+    image: "/chub.png",
+    link: "https://c-gnlswpis3-laakasen-ezras-projects.vercel.app/",
+    ghubLink: "https://github.com/Eleeey/C-hub",
+    description:
+      "Car-hub is a car booking and renting app that utilizes the use of a NExt.js 14 and equiped with advanced search and filter capabilities",
+    techUsed: ["Tailwind.svg", "TS.svg", "/Nextjs.svg"],
+  },
+  {
+    name: "Cypto",
+    image: "/cypto.png",
+    link: "https://inquisitive-dragon-cde0c3.netlify.app/",
+    ghubLink: "https://github.com/Eleeey/CYPTO",
+    description:
+      "Ctpto is a easy to handle app that bundles all the data about your favorite cryptocurrencies such as market cap and price changes over time and news that affects them",
+    techUsed: ["/React.svg", "antd.svg", "TS.svg", "ChatGPT .svg"],
+  },
+  {
+    name: "Hiilink",
+    image: "/hilink.png",
+    link: "https://idyllic-phoenix-df2dcb.netlify.app",
+    ghubLink: "https://github.com/Eleeey/HIInk",
+    description:
+      "Hiiilink is a landing page for hiking or camping guide for all your outdoor hiking and camping",
+    techUsed: ["/Tailwind.svg", "/TS.svg", "/React.svg", "/Nextjs.svg"],
+  },
+];

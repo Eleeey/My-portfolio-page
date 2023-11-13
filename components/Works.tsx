@@ -21,7 +21,7 @@ const Works = () => {
                 ))}
               </div>
               <div className="flex justify-center mt-5 flex-row">
-                <Link href={""}>
+                <Link href={work.link}>
                   <Button
                     type={"button"}
                     title={"Live Demo"}
@@ -31,7 +31,7 @@ const Works = () => {
                     width={20}
                   />
                 </Link>
-                <Link className="ml-5" href={""}>
+                <Link className="ml-5" href={work.ghubLink}>
                   <Button
                     type={"button"}
                     title={"Github"}
