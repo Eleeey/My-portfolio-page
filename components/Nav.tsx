@@ -4,10 +4,10 @@ import React from "react";
 
 const Nav = () => {
   return (
-    <nav className=" border- flex items-center justify-between  max-container  relative py-5 z-30">
+    <nav className=" border-1 flex items-center justify-between  max-container  relative py-5 z-30">
       <Link href={"/"}>
-        <h1>
-          LAAk<span>asen</span>
+        <h1 className="font-extrabold text-xl ">
+          Laakasen Ezra
         </h1>
       </Link>
       <ul className=" h-full gap-12 flex">
@@ -27,7 +27,7 @@ const Nav = () => {
             width={24}
           />
         </Link>
-        <Link href={"/bosh1.pdf"} target="blank" className="rounded-lg bg-black text-white px-5 hover:bg-white hover:border-black hover:border-2 hover:text-black">Resume</Link>
+        <Link href={"/Untitled (5).pdf"} target="blank" className="rounded-lg bg-black text-white px-5 py-1 hover:bg-white hover:border-black hover:border-2 hover:text-black">Resume</Link>
       </ul>
     </nav>
   );

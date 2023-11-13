@@ -10,14 +10,14 @@ const Works = () => {
     <div className="flex mt-10 flex-col flex-wrap  w-100 h-100">
       <div className="flex w-[100%] flex-wrap gap-3 justify-between md:w-[100%]">
         {PROJECTS.map((work) => (
-          <div className=" w-full border-2 bg-gray-50 rounded-lg md:w-[49%] flex h-42 flex-row ">
-            <Image src={work.image} alt={""} width={200} height={100} />
-            <div className="w-full p-5 flex flex-col align justify-center">
+          <div className=" w-full mt-4 bg-gray-50 rounded-lg md:w-[49%]  flex h-auto flex-col ">
+            <Image src={work.image} alt={""} width={500} height={50} />
+            <div className="w-full p-3 flex flex-col align justify-center">
               <h3 className="font-bold uppercase ">{work.name}</h3>
               <p>{work.description}</p>
-              <div className="flex flex-row gap-5 flex-wrap mt-3">
+              <div className="flex flex-row gap-5 justify-center flex-wrap mt-3">
                 {work.techUsed.map((tech) => (
-                  <p className="w-auto bg-black border-1 rounded-lg px-4 text-white">{tech}</p>
+                  <Image src={`${tech}`} alt={""} width={35} height={20}/>
                 ))}
               </div>
               <div className="flex justify-center mt-5 flex-row">
@@ -25,10 +25,10 @@ const Works = () => {
                   <Button
                     type={"button"}
                     title={"Live Demo"}
-                    icon={"/share.svg"}
-                    color=""
-                    height={35}
-                    width={40}
+                    icon={"/link.svg"}
+                    color="p-2 "
+                    height={20}
+                    width={20}
                   />
                 </Link>
                 <Link className="ml-5" href={""}>

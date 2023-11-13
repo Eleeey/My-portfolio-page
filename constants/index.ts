@@ -8,7 +8,7 @@ export const ICONS = [
     { name: '/Tailwind.svg', key: 'Tailwind', label: 'Tailwind Css' },
     { name: '/TS.svg', key: 'TS', label: 'TypeScript' },
     { name: '/ChatGPT .svg', key: 'ChatGPT', label: 'ChatGPT' },
-    { name: '/Ant Design Logo Vector.svg', key: 'Ant Design Logo Vector.svg', label: 'Ant Design' },
+    { name: '/antd.svg', key: 'antd.svg', label: 'Ant Design' },
     { name: '/github (1).svg', key: 'github (1)', label: 'Github' },
 
   ];
@@ -18,9 +18,9 @@ export const ICONS = [
   'path_to_image_3.jpg',
   // Add more image paths as needed
 ];
-export const PROJECTS=[
-  {name:'Cypto', image:'/js.svg', description:'Lorem ipsum dolor sit amet consectdoloremque aperiam fugit porro necessitatibus quidem repellat?',techUsed:['html','css','react']},
-  {name:'Cypto', image:'/js.svg', description:'for the love of God',techUsed:['html','css','react']},
-  {name:'Cypto', image:'/js.svg', description:'for the love of God',techUsed:['html','css','react']},
+export const PROJECTS=[  
+  {name:'Car-hub', image:'/chub.png', description:'Car-hub is a car booking and renting app that utilizes the use of a NExt.js 14 and equiped with advanced search and filter capabilities',techUsed:['Tailwind.svg','TS.svg','/Nextjs.svg']},
+  {name:'Cypto', image:'/cypto.png', description:'Ctpto is a easy to handle app that bundles all the data about your favorite cryptocurrencies such as market cap and price changes over time and news that affects them',techUsed:['/React.svg','antd.svg','TS.svg','ChatGPT .svg']},
+  {name:'Hiilink', image:'/hilink.png', description:'Hiiilink is a landing page for hiking or camping guide for all your outdoor hiking and camping',techUsed:['/Tailwind.svg','/TS.svg','/React.svg', '/Nextjs.svg']},
   
 ]

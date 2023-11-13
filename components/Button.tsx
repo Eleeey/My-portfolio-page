@@ -5,8 +5,8 @@ type ButtonProps = {
   title: string;
   icon?: string;
   color?: string;
-  height:number,
-  width:number
+  height: number;
+  width: number;
 };
 
 const Button = ({ type, title, icon, color, height, width }: ButtonProps) => {

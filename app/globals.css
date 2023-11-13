@@ -1,34 +1,46 @@
+  @import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 * {
+  font-family: 'Edu TAS Beginner', cursive;
   /* border: 1px solid black; */
 }
 /* .aboutMe{
   @apply md:top-[56%] sm:top-[62.5%] lg:top-[62.5%]
 } */
+.aboutme{
+  background-image: url(/aboutme.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 @keyframes bg {
   0%{
-    background-image: url(/public/pexels-pixabay-270408.jpg);
+    background-image: url(/pexels-pixabay-270408.jpg);
   }
   25%{
-    background-image: url(/public/5474248_2328020.jpg);
+    background-image: url(/5474248_2328020.jpg);
   }
   50%{
-    background-image: url(/public/pexels-markus-spiske-360591.jpg);
+    background-image: url(/pexels-markus-spiske-360591.jpg);
   }
   75%{
-    background-image: url(/public/6091745_3155950.jpg);
+    background-image: url(/6091745_3155950.jpg);
   }
   100%{
-    background-image: url(/public/pexels-danny-meneses-943096.jpg);
+    background-image: url(/pexels-danny-meneses-943096.jpg);
   }
   
 }
+
 .projects{
   @apply flex justify-center align-middle flex-wrap w-[100%] h-64  md:h-48  md:w-full rounded-lg;
-  background-image: url(/public/pexels-pixabay-270408.jpg);
-  animation: bg 10s ease-in-out;
+
+  background-image: url(/pexels-pixabay-270408.jpg);
+  animation: bg 30s ease-in-out infinite;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
